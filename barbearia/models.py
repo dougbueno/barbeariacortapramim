@@ -5,3 +5,6 @@ class Carros(models.Model):
     marca = models.CharField(max_length=150)
     ano = models.CharField(max_length=20)
     valor = models.CharField(max_length=20)
+
+def __str__(self):
+        return f'{self.ano}'
